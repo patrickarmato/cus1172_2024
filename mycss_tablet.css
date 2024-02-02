@@ -52,3 +52,9 @@
         margin:15px;
     }
 }
+
+@media print {
+    .screen_only {
+        display:none;
+    }
+}
