@@ -1,3 +1,54 @@
-@media (max-width: 641px) {
-    
+@media (max-width: 640px) {
+    .section {
+        color:crimson;
+        text-align:center;
+    }
+    #section1 {
+        text-align:center;
+    }
+    .font {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .menu {
+        text-align:right;
+        list-style:none
+    }
+    a:hover {
+        color:crimson;
+    }
+    #menu {
+        color:crimson;
+        font-size: 30px;
+    }
+    .table {
+        text-align:center;
+        margin-left:35%;
+        border:1px solid purple;
+    }
+    table th {
+        background-color:lightgrey;
+        border:1px solid purple;
+    }
+    img {
+        text-align:center;
+        margin-left:37%;
+    }
+    table td {
+        border:1px solid purple;
+    }
+    p {
+        text-align:justify;
+    }
+    .media {
+        text-align:center;
+    }
+    #media {
+        margin-left:10%;
+    }
+    ul {
+        list-style:square;
+    }
+    form {
+        margin:15px;
+    }
 }
