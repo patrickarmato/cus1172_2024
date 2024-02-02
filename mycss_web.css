@@ -1,0 +1,10 @@
+@media (min-width: 641px) {
+    .section {
+        color:crimson;
+        text-align:center;
+    }
+
+    .font {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
