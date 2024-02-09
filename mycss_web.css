@@ -20,7 +20,6 @@
     }
     .table {
         text-align:center;
-        margin-left:35%;
         border:1px solid purple;
     }
     table th {
@@ -29,7 +28,6 @@
     }
     img {
         text-align:center;
-        margin-left:37%;
     }
     table td {
         border:1px solid purple;
@@ -46,31 +44,18 @@
     ul {
         list-style:none;
     }
-    #section2 {
-        text-align:left;
-        margin-right:300px;
-    }
     #section3 {
-        text-align:right;
-        margin-left:300px;
     }
     #section4 {
         text-align:center
     }
     #section5 {
-        text-align:left;
-        margin-right:300px;
     }
     #section6 {
-        text-align:right;
     }
     #section7 {
-        text-align:left;
-        margin-right:300px;
     }
     #section8 {
-        text-align:right;
-        margin-left:300px;
     }
     form {
         margin:15px;
