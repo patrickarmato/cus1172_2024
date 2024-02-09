@@ -42,7 +42,7 @@
         border:1px solid purple;
     }
     table th {
-        background-color:lightgrey;
+        background-color:lightgrey !important;
         border:1px solid purple;
     }
     img {
@@ -63,18 +63,49 @@
     ul {
         list-style:none;
     }
-    #section3 {
+    #section3p {
+        padding-top:30px;
+        padding-right:40px;
+        border-right-style:dashed;
+        border-right-width:3px;
+        border-bottom-style:dashed;
+        border-bottom-width:3px;
+    }
+    #section4p {
+        padding-top:30px;
+        padding-left:40px;
+        border-bottom-style:dashed;
+        border-bottom-width:3px;
     }
     #section4 {
         text-align:center
     }
-    #section5 {
+    #section5p {
+        padding-top:30px;
+        padding-right:40px;
+        padding-bottom:30px;
+        border-right-style:dashed;
+        border-right-width:3px;
+        border-bottom-style:dashed;
+        border-bottom-width:3px;
     }
-    #section6 {
+    #section6p {
+        padding-top:30px;
+        padding-left:40px;
+        border-bottom-style:dashed;
+        border-bottom-width:3px;
+        padding-bottom:30px;
     }
-    #section7 {
+    #section7p {
+        padding-top:30px;
+        padding-right:40px;
+        border-right-style:dashed;
+        border-right-width:3px;
+        padding-bottom:30px;
     }
-    #section8 {
+    #section8p {
+        padding-top:30px;
+        padding-left:40px;
     }
     form {
         margin:15px;
