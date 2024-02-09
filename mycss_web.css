@@ -2,11 +2,15 @@
     .section {
         color:crimson;
     }
+    body {
+        background-color:blanchedalmond !important;
+    }
     #section1 {
         text-align:center;
+        margin-top:80px;
     }
     .font {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family:monospace;
     }
     .menu {
         list-style:none
@@ -14,9 +18,24 @@
     a:hover {
         color:crimson;
     }
+    #section1p {
+        padding-right: 50px;
+        border-right-style:dashed;
+        border-right-width:3px;
+        border-bottom-style:dashed;
+        border-bottom-width:3px;
+        padding-bottom:30px;
+    }
+    #section2p {
+        padding-left: 45px;
+        border-bottom-style:dashed;
+        border-bottom-width:3px;
+    }
     #menu {
         color:crimson;
         font-size: 30px;
+        margin-top: 30px;
+        margin-left: 20px;
     }
     .table {
         text-align:center;
