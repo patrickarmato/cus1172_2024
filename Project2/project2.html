@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            A simple to-do list.
+        </title>
+
+        <script src="project2.js"></script>
+
+        <style>
+            label {
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            .completed {
+                text-decoration: line-through;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>A simple to-do list</h1>
+        
+        <form id="taskForm">
+            <label for="taskTitle">Task Title:</label>
+            <input type="text" id="taskTitle" required><br><br>
+            
+            <label for="taskPriority">Task Priority:</label>
+            <select id="taskPriority" required>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select><br><br>
+            
+            <label>Task Status:</label><br>
+            <label for="statusInProgress">Pending</label>
+            <input type="radio" id="statusInProgress" name="taskStatus" value="In progress">
+            <label for="statusCompleted">Completed</label>
+            <input type="radio" id="statusCompleted" name="taskStatus" value="Completed"><br><br>
+            
+            <button type="submit">Add Task</button>
+        </form>
+        
+        <ul id="taskList"></ul>
+    </body>
+</html>
