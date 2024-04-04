@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 async function start() {
     widget_html = render_view("#question");
     document.querySelector("#app_widget").innerHTML = widget_html;
-    const reponse = await fetch('');
+    const reponse = await fetch('https://my-json-server.typicode.com/patrickarmato/cus1172_2024/db');
     const data = await response.json();
 
     const quizID = document.getElementById('quizID').value;
