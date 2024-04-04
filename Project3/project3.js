@@ -8,12 +8,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     create_user_view(1)
 
-    document.querySelector("#quiz1").onclick = function(){
-        widget_html = render_view("#question");
-        document.querySelector("#app_widget").innerHTML = widget_html;
-    }
+    document.querySelector("#quiz1").addEventListener('click', start);
+    
 
 })
+
+async function start() {
+    widget_html = render_view("#question");
+    document.querySelector("#app_widget").innerHTML = widget_html;
+    const reponse = await fetch('');
+    const data = await response.json();
+
+    const quizID = document.getElementById('quizID').value;
+}
 
 const create_user_view = async (user_idx) => {
 
